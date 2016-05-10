@@ -4,12 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#">
+<meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#">
+    <title> A highlighter for online articles | txtpen.com </title>
+
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/common.css" rel="stylesheet">
+    <link href="node_modules/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/styles/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,36 +42,45 @@
 
      <!-- Header -->
       <div class="header clearfix">
-        <h3 class="text-muted tHeaderLogo">TxtPen</h3>
+      
+        <h3 class="tHeaderLogo">
+        <img src="/assets/images/logoHeader.png" height="40">
+        </h3>
         <ul class="nav tNavBar">
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Login</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Sign Up</a></li>
         </ul>
       </div>
 
-      <!-- slider -->
-
-
-      <div class="slider clearfix">
+      <div class="slider tSlider clearfix">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <div class="tSliderLeft">
-                <h3>Have a Blog?</h3>
-                <p>Add txtpen to your site to generate a heatmap of reader's interest,increase engagement & earn new reveue.</p>
+                <h3>Have a Blog? This tool is for you.</h3>
+                <p>txtpen offers publishers the tools to generate heatmaps, increase engagement, &amp; earn new revenue.</p>
                 <button>Learn More</button>
             </div>
           </div>
           <div class="col-md-9">
             <div class="tSliderRight">
-                <h3>txtpen learns as you highlight the web.</h3>
+                <h3>txtpen is the highlighter for the internet.</h3>
+                <p>... and collects all your highlights in a scrapbook</p>
                 <img src="http://fakeimg.pl/250x200/" alt="">
                 <ul>
-                  <li><button>Sign Up With Google</button></li>
-                  <li><button>Sign Up With Twitter</button></li>
+                  <li>
+                  <a class="btn btn-block btn-social btn-google">
+                    <span class="fa fa-google"></span> Sign Up with Google
+                  </a></li>
+
+                  </li>
+                  <li>
+                  <a class="btn btn-block btn-social btn-twitter">
+                    <span class="fa fa-twitter"></span> Sign Up with Twitter
+                  </a></li>
                   <li class="split"></li>
                   <li><button>Sign Up With Email</button></li>
                   <li>
-                    Already have an account? Log in now.
+                    Already have an account? <a href="#">Sign in</a> now.
                   </li>
                 </ul>
             </div>
@@ -67,12 +94,11 @@
            <img src="http://fakeimg.pl/200x200/" alt="">
           </div>
           <div class="col-md-8">
-                <h3>txtpen learns as you highlight the web.</h3>
+                <h3>txtpen learns as you highlight</h3>
                 <p>
-                  txtpen highlights the key info ,the most
-                  popular sentences and controversial
-                  asserations based on anonymous browsing data
-                  and advanced AI algorithm
+                  txtpen shows you the key info, most highlighted
+                  and discussed area based on anonymous browsing data
+                  and advanced Natural Language Processing algorithms.
                 </p>
           </div>
       </div>
@@ -80,16 +106,13 @@
 
       <div class="row tInfo">
           <div class="col-md-8">
-                <h3>txtpen learns as you highlight the web.</h3>
+                <h3>in-text comments</h3>
                 <p>
-                  txtpen highlights the key info ,the most
-                  popular sentences and controversial
-                  asserations based on anonymous browsing data
-                  and advanced AI algorithm
+                  Scribble your thoughts down and read “between the lines” with other enthusiastic users. Bring your expertise to the discussion, in-text.
                 </p>
           </div>
           <div class="col-md-4">
-           <img src="http://fakeimg.pl/200x200/" alt="">
+           <img src="assets/images/elephant.png" height="200" alt="">
           </div>
         </div>
 
@@ -110,13 +133,30 @@
       <hr>
       <div class="row tSign">
         <div class="col-md-6 col-md-offset-3">
-            Start using txtPen <button>Sign Up  Now</button> It's totally free.
+            Start using txtpen <a class="tSignUpNow">Sign Up Now</a> It's totally free.
         </div>
       </div>
 
 
     </div> <!-- /container -->
-
+    <hr>
+    <div class="tFooterMaster">
+      <div class="tContainer-fluid tFooterLinks">
+        <a href="/about">About</a>
+        <a href="/help">Help</a>
+        <a href="/apps">Apps</a>
+        <a href="/developer">Developer</a>
+        <a href="/branding">Branding</a>
+        <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/copyright">Copyright</a>
+        <a href="http://blog.txtpen.com" target="_blank">Blog</a>
+        <a href="http://twitter.com/txtpen">Twitter</a>
+          <div class="copyright">
+          © 2016 TXTPEN Holdings, Inc.
+          </div>
+      </div>
+      </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
