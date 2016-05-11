@@ -30,12 +30,13 @@ a:hover { color:black; }
 .tNavBar li:last-child{
   background-color: #46c340;
   border: 2px solid #46c340;
-  color: #46c340;
   border-radius: 50px;
   font-weight: 400;
   display: inline-block;
 }
-
+.tNavBar li:last-child a{
+  color: #fff;
+}
 .tNavBar li a{
   padding:5px 15px !important;
   /*text-decoration: underline;*/
@@ -49,10 +50,13 @@ a:hover { color:black; }
   float:left !important;
 }
 .tSlider {
-  background-color: #FCCD74;
+  background-color: #fff;
   min-height: 500px;
+  margin: 0 auto;
   margin-top: 100px;
+  width: 100%;
 }
+
 .tSliderLeft {margin:10px 20px 10px !important;}
 .tSliderRight{
   margin:10px 20px 10px !important;
@@ -75,6 +79,9 @@ a:hover { color:black; }
 .tSign button{padding:20px;margin:20px;}
 .tSign div{text-align: center;}
 
+.tImgLeft img {
+  margin-left:-40%;
+}
 p {
   font-size: 18px;
 }
