@@ -9,16 +9,27 @@ a {
 	color: green;
 }
 a:hover { color:black; }
+.tHeader {
+  position: fixed;
+  overflow-y: auto;
+  min-width: 100%;
+  background-color: #B3FFE3;
+  z-index: 1000;
+  border-bottom: 1px solid green;
+  min-height: 50px;
+  max-height: 100px;
+}
 
-.tNavBar{ float:right; margin-top:20px; }
+.tNavBar{ float:right; margin-top:20px; margin-right: 20%;}
 
 .tNavBar li{
   float: left !important;
-  border-right:2px solid #ccc;
+  /*border-right:2px solid #ccc;*/
 }
 
 .tNavBar li:last-child{
-    border: 2px solid #46c340;
+  background-color: #46c340;
+  border: 2px solid #46c340;
   color: #46c340;
   border-radius: 50px;
   font-weight: 400;
@@ -27,17 +38,23 @@ a:hover { color:black; }
 
 .tNavBar li a{
   padding:5px 15px !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .tNavBar li a:hover{
   background: none;
 }
-.tHeaderLogo{margin-left: 50px;float:left !important;}
-
+.tHeaderLogo{
+  margin-left: 20%;
+  float:left !important;
+}
+.tSlider {
+  background-color: #FCCD74;
+  min-height: 500px;
+  margin-top: 100px;
+}
 .tSliderLeft {margin:10px 20px 10px !important;}
 .tSliderRight{
-  line-height: 50px;
   margin:10px 20px 10px !important;
 }
 
@@ -50,10 +67,7 @@ a:hover { color:black; }
 .tSliderRight ul .split{border-bottom: 2px solid #ccc;}
 .tSliderRight ul li button{ width:100%;height:30px; }
 
-.tSlider {
-  background-color: #FCCD74;
-  min-height: 500px;
-}
+
 .tInfo{padding:40px;}
 .tInfo div {text-align: center;}
 
