@@ -30,7 +30,7 @@ a:hover { color:black; }
 .tNavBar li:last-child{
   background-color: #46c340;
   border: 2px solid #46c340;
-  border-radius: 50px;
+  border-radius: 25px;
   font-weight: 400;
   display: inline-block;
 }
@@ -77,18 +77,22 @@ a:hover { color:black; }
 
 .tSign{margin:29px;}
 .tSign button{padding:20px;margin:20px;}
-.tSign div{text-align: center;}
+.tSign div{text-align: center;font-size:15px;}
 
 .tImgLeft img {
   margin-left:-40%;
+}
+.tImgRight img {
+  /*margin-left:-10%;*/
 }
 p {
   font-size: 18px;
 }
 
 .tSignUpNow { 
-	border: 2px solid #46c340;
-  color: #46c340;
+  background-color: #FAAB18;
+	border: 2px solid #FAAB18;
+  color: black;
   padding: 8px 18px;
   border-radius: 50px;
   font-size: 18px;
