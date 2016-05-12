@@ -73,23 +73,26 @@ a:hover { color:black; }
 
 
 .tInfo{padding:40px;}
-.tInfo div {text-align: center;}
+.tInfo div {text-align: justify; vertical-align: middle;}
 
 .tSign{margin:29px;}
 .tSign button{padding:20px;margin:20px;}
 .tSign div{text-align: center;font-size:15px;}
 
 .tImgLeft img {
-  margin-left:-40%;
+  /*margin-left:-40%;*/
+  width:100% !important ;
 }
 .tImgRight img {
   /*margin-left:-10%;*/
+  width:100% !important ;
+  height: auto;
 }
 p {
   font-size: 18px;
 }
 
-.tSignUpNow { 
+.tSignUpNow {
   background-color: #FAAB18;
 	border: 2px solid #FAAB18;
   color: black;
